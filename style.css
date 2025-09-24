@@ -1,0 +1,17 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  height: 100%;
+  background: #f2f6fb; /* 하늘빛 배경 */
+}
+
+#wrap {
+  position: fixed;
+  inset: 0;
+}
+canvas {
+  display: block;
+  width: 100vw !important;
+  height: 100vh !important;
+}
